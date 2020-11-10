@@ -13,13 +13,13 @@ public class Info extends JFrame{
 		Container c =getContentPane();
 		c.setLayout(null);
         
-        JButton home = new JButton("Home");
+       /* JButton home = new JButton("Home");
         home.setBounds(500,20,100,40);
         c.add(home);
         
         JButton logout = new JButton("Logout");
         logout.setBounds(630,20,100,40);
-        c.add(logout);
+        c.add(logout);*/
         
         JLabel utime =new JLabel("Usage Time : ");
         utime.setBounds(200,30,200,100);
